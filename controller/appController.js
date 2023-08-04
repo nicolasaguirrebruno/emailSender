@@ -6,7 +6,7 @@ const PASSWORD = "mrxwftvckslqavii";
 
 /** send mail from real gmail account */
 const sendEmail = (req, res) => {
-  const { userEmail, clientName, clientQuery } = req.body;
+  const { userEmail, clientName, clientQuery, clientEmail } = req.body;
 
   let config = {
     service: "gmail",
